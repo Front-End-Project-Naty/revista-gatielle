@@ -58,36 +58,45 @@ a:link, :visited {
     cursor: pointer;
 }
 
-.novidades__titulo {
+.novidades__seçao {
     font-family: 'Rubik';
     font-size: 40px;
     margin-left: 60px;
     margin-top: 30px;
 }
 
-.novidades__moda__imagem {
-    width: 30%;
+.novidades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+} 
+
+.novidades__item:nth-child(1) {
+    grid-row: 1 / 3;
+}
+
+.novidades__item {
+    display: grid;
+    justify-items: center;
+}
+
+.novidades__imagem {
+    width: 60%;
     border-radius: 10px;
-    margin-left: 60px;
-    margin-top: 30px;
+    justify-items: center;
 }
 
-.novidades__moda__titulo, .novidades__moda__texto {
+.livro {
+    width: 80%;
+}
+
+.novidades__titulo {
     font-family: 'Rubik';
-    font-size: 30px;
-    margin: 20px 0 20px 60px;
-}
-
-.novidades__moda__titulo {
     text-transform: uppercase;
 }
 
-.novidades__moda__texto {
-   font-size: 20px;
+.novidades__texto {
+    font-family: 'Rubik';
+    margin-bottom: 20px;
 }
-
-
-
-
-
-
