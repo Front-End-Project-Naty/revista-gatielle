@@ -58,10 +58,10 @@ a:link, :visited {
     cursor: pointer;
 }
 
-.titulo__seçao {
+.descricao__titulo {
     font-family: 'Rubik';
     font-size: 40px;
-    margin: 60px 30px;
+    margin: 30px;
 }
 
 .novidades {
@@ -81,45 +81,82 @@ a:link, :visited {
 }
 
 .novidades__imagem {
-    width: 60%;
+    width: 50%;
     border-radius: 10px;
     justify-items: center;
+    margin-bottom: 20px;
 }
 
 .livro {
     border-radius: 10px;
     width: 80%;
+    margin-bottom: 20px;
 }
 
 .novidades__titulo {
     font-family: 'Rubik';
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
-.novidades__texto {
+.descricao__titulo {
+    text-align: center;
+}
+
+.descricao__texto {
     font-family: 'Rubik';
     margin-bottom: 20px;
+    line-height: 1.5;
+    text-align: center;
 }
+
 
 .imagem__revista {
     width: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.revista__digital {
+    text-align: center;
 }
 
 .horoscopo {
-    margin: 0 auto;
-    padding: 10px;
+    background: white;
+    display: flex;
+    padding: 5rem 0 0 5rem;
+}
+
+.horoscopo__conteudo {
+    border-radius: 10px;
+    display: grid;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 60px;
 }
 
 
 .imagem__horoscopo {
-    width: 30%;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+
 }
 
-.texto__horoscopo {
-    font-family: 'Rubik';
-    margin 10px 0 1em 0;
-    clear: right;
-    text-align: center;
-    font-size: 20px;
+.conteudo__final {
+    padding: 40px;
+}
 
+.tenor-gif-embed {
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.input-padrao {
+	padding: 5px 15px;
+	width: 70%;
 }
