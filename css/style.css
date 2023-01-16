@@ -1,0 +1,81 @@
+.logo {
+    background: black;
+    color: white;
+    font-family: 'GFS Didot';
+    font-size: 50px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    position: fixed;
+}
+
+a:link, :visited {
+    color: white; 
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(252, 228, 232);
+}
+
+.inicial {
+    align-items: center;
+    display: flex;
+    font-family: 'Rubik';
+    text-align: center;
+}
+
+.inicial__imagem {
+    width: 50%;
+}
+
+.inicial__titulo {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.inicial__texto {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.botao__inicial {
+    background-color: black;
+    border-color: white;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Rubik';
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.botao__inicial:hover {
+    background: rgb(248, 19, 99);
+    color: white;
+    cursor: pointer;
+}
+
+.descricao__titulo {
+    font-family: 'Rubik';
+    font-size: 40px;
+    margin: 30px;
+}
+
+.descricao__titulo {
+    text-align: center;
+}
+
+.descricao__texto {
+    font-family: 'Rubik';
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
