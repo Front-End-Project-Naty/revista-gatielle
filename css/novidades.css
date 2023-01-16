@@ -1,0 +1,34 @@
+.novidades {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+} 
+
+.novidades__item:nth-child(1) {
+    grid-row: 1 / 3;
+}
+
+.novidades__item {
+    display: grid;
+    justify-items: center;
+}
+
+.novidades__imagem {
+    border-radius: 10px;
+    justify-items: center;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.livro {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.novidades__titulo {
+    font-family: 'Rubik';
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}

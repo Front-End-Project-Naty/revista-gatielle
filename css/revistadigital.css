@@ -1,0 +1,11 @@
+.imagem__revista {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    width: 25%;
+}
+
+.revista__digital {
+    text-align: center;
+}

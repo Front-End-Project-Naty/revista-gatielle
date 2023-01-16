@@ -1,0 +1,35 @@
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        padding: 0;
+    }
+
+    .inicial__imagem {
+        width: 100%;
+    }
+
+    .container__inicial {
+        margin: 2em 2em;
+        font-size: 15px;
+    }
+
+    .container__novidades {
+        margin: 5px;
+        text-align: center;
+    }
+
+    .descricao__titulo {
+        text-decoration: underline;
+        margin: 0;
+    }
+
+    .horoscopo__conteudo {
+        grid-template-columns: 1fr;
+        padding: 0;
+        text-align: center;
+    }
+
+    .rodape__logo {
+        width: 15%;
+    }
+}

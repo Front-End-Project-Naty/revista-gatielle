@@ -1,0 +1,23 @@
+.rodape__logo {
+    width: 5%;
+}
+
+.lista__link {
+    display: inline-block;
+    font-family: 'GFS Didot';
+    font-size: 14px;
+    margin: 1em;
+    text-transform: uppercase;
+}
+
+.rodape {
+    background:black;
+    text-align: center;
+}
+
+.rodape__texto {
+    color: white;
+    font-family: 'GFS Didot';
+    font-size: 12px;
+    margin-bottom: 1em;
+}

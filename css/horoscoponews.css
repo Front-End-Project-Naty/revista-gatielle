@@ -1,0 +1,36 @@
+.horoscopo {
+    display: flex;
+    padding: 5rem 0 0 5rem;
+    text-align: center;
+}
+
+.horoscopo__conteudo {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    padding: 60px;
+}
+
+.imagem__horoscopo {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.conteudo__final {
+    padding: 40px;
+}
+
+.tenor-gif-embed {
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+.input-padrao {
+    border-radius: 10px;
+    margin: 8px 0;
+	padding: 5px 15px;
+    width: 70%;
+}
