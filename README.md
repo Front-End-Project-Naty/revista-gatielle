@@ -12,7 +12,7 @@
 
 <p align="justify">
   Projeto inspirado na página online da revista de moda ELLE Brasil, porém com as fotos da minha gata, a Gatiele, e conteúdo voltado para o universo felino.
-  Foi desenvolvido com as ferramentas HTML e CSS, para praticar layout responsivo, flexbox e redimensionamento de imagens.
+  Foi desenvolvido com as ferramentas HTML e CSS, para praticar responsividade, flexbox, grid layout e redimensionamento de imagens.
 
 </p>
 
