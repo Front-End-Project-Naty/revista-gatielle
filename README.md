@@ -1,7 +1,7 @@
 <h1 align="center">Revista GATIELLE</h1>
 
 <p align="center">
-<img width=20% src="https://user-images.githubusercontent.com/61480327/212575788-6e916fe8-df3a-4b40-bb77-5faca3993fcb.png">
+<img width=30% src="https://user-images.githubusercontent.com/61480327/212575788-6e916fe8-df3a-4b40-bb77-5faca3993fcb.png">
 <p>
   
 <p align="center">
